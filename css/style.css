@@ -1,0 +1,146 @@
+div{
+    
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    
+}
+div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.one{
+    position: absolute;
+    animation-name: change  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ; 
+}
+
+@keyframes change {
+
+    0% { left: 1px;}
+     
+    100% {  left: 1266px }
+}
+.two{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    animation-name: change-two  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 3s;
+}
+@keyframes change-two {
+
+    0% { right: 0px;}
+     
+    100% {  right: 1266px }
+}
+.three{
+    position: absolute;
+    left: 0;
+    top: 180px;
+    animation-name: change-three  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 6s;
+
+}
+@keyframes change-three {
+
+    0% { left: 1px;}
+     
+    100% {  left: 1266px }
+}
+
+.four{
+    position: absolute;
+    right: 0;
+    top: 260px;
+    animation-name: change-four  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 9s;
+}
+@keyframes change-four {
+
+    0% { right: 0px;}
+     
+    100% {  right: 1266px }
+}
+
+
+.five{
+    position: absolute;
+    animation-name: change-five  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ; 
+    top: 340px;
+    animation-delay: 12s;
+}
+
+@keyframes change-five{
+
+    0% { left: 1px;}
+     
+    100% {  left: 1266px }
+}
+.six{
+    position: absolute;
+    right: 0;
+    top: 420px;
+    animation-name: change-six  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 15s;
+}
+@keyframes change-six {
+
+    0% { right: 0px;}
+     
+    100% {  right: 1266px }
+}
+.seven{
+    position: absolute;
+    left: 0;
+    top: 500px;
+    animation-name: change-seven  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 18s;
+
+}
+@keyframes change-seven {
+
+    0% { left: 1px;}
+     
+    100% {  left: 1266px }
+}
+
+.eight{
+    position: absolute;
+    right: 0;
+    top: 580px;
+    animation-name: change-eight  ;
+    animation-duration: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 21s;
+}
+@keyframes change-eight {
+
+    0% { right: 0px;}
+     
+    100% {  right: 1266px }
+}
+
